@@ -3,6 +3,8 @@
 // Program: Competition 
 
 async function startProgram() {
-	// Write code here
+	await scrollMatrixText('start', { r: 66, g: 56, b: 255 }, 30, true)
+
+
 }
 
