@@ -7,6 +7,9 @@ async function startProgram() {
 	await scrollMatrixText('start', { r: 66, g: 56, b: 255 }, 30, true)
 	await roll(0, 75, 2)
 	setMainLed({ r: 0, g: 0, b: 255 })
-	
+	await delay(2)
+	await roll(90, 55, 2)
+	await delay(2)
+	await Sound.Animal.Monkey.play()
 }
 
