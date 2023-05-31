@@ -19,7 +19,8 @@ async function startProgram() {
 	await delay(2)
 	await roll(120, 49, 1)
 	await delay(2)
-	await roll(30, 45, 2)
+	await roll(40, 45, 2)
 	await Sound.Animal.Chicken.play()
+	await roll(120, 45, 2)
 }
 
